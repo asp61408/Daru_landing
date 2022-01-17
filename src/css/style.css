@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.busines {
+    /* display: flex; */
+    min-height: 1089px;
+    padding: 106px 0 164px 0;
+    background-color: black;
+}
+
+.busines .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.busines .menu .logo {
+    /* display: block; */
+    /* margin: 0 auto; */
+}
+
+
+/* .busines .menu nav {
+    margin: 0 auto;
+} */
+
+.busines .menu .menu_ a {
+    /* justify-content: space-around; */
+    /* left: 130px; */
+    /* margin-top: 0 auto; */
+    /* margin: 0 25px 0 25px; */
+    margin-right: 70px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    color: rgba(118, 134, 159, 0.8);
+}
+
+.header {
+    /* display: flex; */
+    /* justify-content: end; */
+    /* align-items: center; */
+}
+
+h1 {
+    margin-top: 210px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 101.3%;
+    font-size: 62px;
+    color: #FFFFFF;
+}
+
+.busines .header .header_text {
+    margin-top: 38px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 129.8%;
+    color: #6A7C95;
+}
+
+.busines .header .header_img {
+    /* display: inline-block; */
+    position: absolute;
+    left: 850px;
+    top: 265px;
+}
+
+
+/* .header .header_it {
+    position: absolute;
+    left: 1042px;
+    top: 371px;
+    background: linear-gradient(237.94deg, #181F29 -51.1%, #303A49 116.79%);
+} */
+
+.busines .header .header_btn {
+    position: absolute;
+    width: 262px;
+    height: 49px;
+    /* left: 130px; */
+    /* top: 664px; */
+    background: #5CA35B;
+    border-radius: 10px;
+    margin-top: 67px;
+    cursor: pointer;
+}
+
+.busines .contact {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 178px;
+}
+
+.busines .contact .contact_img {
+    margin-right: 12px;
+}
+
+.busines .contact a {
+    margin-right: 25px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 151.3%;
+    color: rgba(118, 134, 159, 0.8);
+}
+
+.link {
+    min-height: 851px;
+    padding: 162px 0 163px 0;
+    background: #181F29;
+}
+
+.link .title {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.link .link_text {
+    margin-top: 22px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 142.8%;
+    /* or 29px */
+    color: #6A7C95;
+}
+
+.link .link_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.link .link_wrapper .link_item .link_bg {
+    width: 317px;
+    height: 340px;
+    /* left: 370px; */
+    /* top: 348px; */
+    background: #273140;
+    border-radius: 15px;
+}
+
+.link .link_wrapper .link_item .link_bg .link_img {
+    margin: 37px 113px 0 113px;
+}
+
+h3.title_img {
+    margin-top: 28px;
+    font-family: Mont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.link .link_wrapper .link_item .link_bg .link_descr {
+    top: 544px;
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.8%;
+    text-align: center;
+    color: #717E92;
+    margin-top: 18px;
+}
+
+.opportunity {
+    /* display: flex;
+    justify-content: start; */
+    min-height: 552px;
+    background-color: black;
+    padding: 147px 0 169px 0;
+}
+
+.opportunity .title_oppo {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #FFFFFF;
+    /* margin-top: 147px; */
+}
+
+.opportunity .oppo_text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 142.8%;
+    /* or 29px */
+    color: #6A7C95;
+    margin-top: 22px;
+}
+
+.opportunity .oppo_im {
+    margin-top: 66px;
+}
+
+.opportunity .oppo_im .oppo_img {
+    margin-right: 40px;
+}
+
+.convert {
+    position: relative;
+    min-height: 509px;
+    background: #181F29;
+    padding: 141px 0 145px 0;
+}
+
+.convert .title_convert {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+
+.convert .convert_text {
+    margin-top: 22px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 142.8%;
+    /* or 29px */
+    color: #6A7C95;
+}
+
+.convert .convert_btn {
+    margin-top: 49px;
+    width: 262px;
+    height: 49px;
+    /* left: 372px; */
+    /* top: 315px; */
+    background: #212A38;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.convert .convert_img {
+    position: absolute;
+    width: 180px;
+    height: 290px;
+    left: 852px;
+    top: 271px;
+    /* background: url(X - 4.jpg); */
+    filter: drop-shadow(0px 4px 14px #212A38);
+    border-radius: 20px;
+}
+
+.convert .convert_img2 {
+    position: absolute;
+    width: 287px;
+    height: 417px;
+    left: 1100px;
+    top: 117px;
+    /* background: url(X - 2.jpg); */
+    filter: drop-shadow(0px 4px 19px #212A38);
+    border-radius: 20px;
+}
