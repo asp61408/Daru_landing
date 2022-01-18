@@ -397,7 +397,7 @@ h2.title_cheap {
     margin-top: 22px;
 }
 
-.update .update_wrapper .update_round {
+.update .update_wrapper .update_round_tg {
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -408,6 +408,45 @@ h2.title_cheap {
     height: 63px;
     background: #2F89CE;
     text-align: center;
+}
+
+.update .update_wrapper .update_round_in {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 38px;
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    background: linear-gradient(43.94deg, #EEA054 16.16%, #D64763 50.11%, #B62A99 83.68%);
+}
+
+.update .update_wrapper .update_round_vk {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 38px;
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    background: #7294C7;
+}
+
+.update .update_wrapper .update_round_fb {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 38px;
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    background: #4E6297;
 }
 
 .footer {
