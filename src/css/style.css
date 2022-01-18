@@ -114,7 +114,6 @@ h1 {
     font-weight: normal;
     font-size: 20px;
     line-height: 142.8%;
-    /* or 29px */
     color: #6A7C95;
 }
 
@@ -179,7 +178,6 @@ h3.title_img {
     font-weight: normal;
     font-size: 20px;
     line-height: 142.8%;
-    /* or 29px */
     color: #6A7C95;
     margin-top: 22px;
 }
@@ -214,7 +212,6 @@ h3.title_img {
     font-weight: normal;
     font-size: 20px;
     line-height: 142.8%;
-    /* or 29px */
     color: #6A7C95;
 }
 
@@ -222,8 +219,6 @@ h3.title_img {
     margin-top: 49px;
     width: 262px;
     height: 49px;
-    /* left: 372px; */
-    /* top: 315px; */
     background: #212A38;
     border-radius: 10px;
     cursor: pointer;
@@ -235,7 +230,6 @@ h3.title_img {
     height: 290px;
     left: 852px;
     top: 271px;
-    /* background: url(X - 4.jpg); */
     filter: drop-shadow(0px 4px 14px #212A38);
     border-radius: 20px;
 }
@@ -246,7 +240,6 @@ h3.title_img {
     height: 417px;
     left: 1100px;
     top: 117px;
-    /* background: url(X - 2.jpg); */
     filter: drop-shadow(0px 4px 19px #212A38);
     border-radius: 20px;
 }
@@ -278,7 +271,7 @@ h3.title_img {
     background: #273140;
     box-shadow: 0px 1px 26px rgba(24, 31, 41, 0.15);
     border-radius: 15px;
-    padding: 53px 26px 47px 26px;
+    padding: 53px 26px 47px 35px;
 }
 
 h2.title_cheap {
@@ -299,12 +292,10 @@ h2.title_cheap {
     font-weight: normal;
     font-size: 20px;
     line-height: 142.8%;
-    /* or 29px */
     color: #6A7C95;
 }
 
 .cheap .container_cheap .cheap_wrapper .cheap_item .cheap_subtitle {
-    /* margin-top: 53px; */
     /* font-family: Mont; */
     font-style: normal;
     font-weight: bold;
@@ -329,10 +320,12 @@ h2.title_cheap {
     font-weight: 500;
     font-size: 16px;
     line-height: 160.3%;
-    /* or 26px */
     color: #717E92;
     margin-top: 23px;
-    text-align: center;
+    /* margin-left: 30px; */
+    text-align: left;
+    list-style-position: inside;
+    /* list-style: none; */
 }
 
 .cheap .container_cheap .cheap_wrapper .cheap_item .cheap_list span {
@@ -350,7 +343,7 @@ h2.title_cheap {
     background: #6A7395;
     border-radius: 5px;
     margin-top: 39px;
-    font-family: Mont;
+    /* font-family: Mont; */
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -464,21 +457,17 @@ h2.title_cheap {
     font-weight: normal;
     font-size: 12px;
     line-height: 128.8%;
-    /* or 15px */
     color: #2D3746;
 }
 
 .footer .footer_logo {
     display: flex;
     justify-content: center;
-    /* margin: 0 auto; */
-    /* display: block; */
     text-align: center;
     /* font-family: SF Pro Display; */
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 128.8%;
-    /* or 15px */
     color: #2D3746;
 }
